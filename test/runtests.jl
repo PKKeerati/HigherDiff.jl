@@ -5,4 +5,5 @@ using Test
     # x*y-1
     @test f(2,1) == 1
     @test f(3,1) == 2
+    @test f(2,3) == 5
 end
